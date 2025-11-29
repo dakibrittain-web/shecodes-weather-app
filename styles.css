@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(65, 65, 124, 0.123);
+  font-family: "Roboto Serif", serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.161);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(13, 13, 33);
+  margin: 20px 0 10px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(46, 46, 108);
+  margin: 10px 0;
+}
+
+strong {
+  color: #4951c4;
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 14px;
+  color: #7a8199;
+}
+
+footer a {
+  color: #4951c4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="search"] {
+  flex: 1;
+  padding: 15px 40px;
+  border: 1px solid #d1d5e8;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: "Roboto Serif", serif;
+}
+
+input[type="search"]::placeholder {
+  color: #757b97;
+}
+
+input[type="submit"] {
+  padding: 15px 40px;
+  background: #4951c4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Roboto Serif", serif;
+}
+
+input[type="submit"]:hover {
+  background: #3a42a8;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.current-weather div:last-child {
+  font-size: 64px;
+  font-weight: 600;
+  color: rgb(13, 18, 73);
+}
+
+.current-weather .material-symbols-outlined {
+  font-size: 80px;
+  color: #f39c12;
+}
+
+#weather-icon {
+  width: 80px;
+  height: 80px;
+}
