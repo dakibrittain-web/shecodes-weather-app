@@ -31,7 +31,7 @@ searchForm.addEventListener("submit", function(event) {
         let humidity = response.data.temperature.humidity;
         let wind = response.data.wind.speed;
         let description = response.data.condition.description;
-        let iconUrl = response.data.condition.icon_url;
+  
 
         let cityHeading = document.querySelector("#city-name");
         cityHeading.innerHTML = cityName;
@@ -47,6 +47,10 @@ searchForm.addEventListener("submit", function(event) {
 
         let weatherDescription = document.querySelector("#weather-description");
         weatherDescription.innerHTML = description;
+
+        let iconUrl = response.data.condition.icon_url;
+        let weatherIcon = document.querySelector("#weather-icon");
+        weatherIcon.innerHTML = `<img src="${iconUrl}" alt="${description}" class="weather-icon" />`;
 
     });
 });

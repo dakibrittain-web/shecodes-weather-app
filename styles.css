@@ -99,6 +99,9 @@ input[type="submit"]:hover {
 }
 
 .current-weather div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 64px;
   font-weight: 600;
   color: rgb(13, 18, 73);
@@ -109,7 +112,7 @@ input[type="submit"]:hover {
   color: #f39c12;
 }
 
-#weather-icon {
-  width: 80px;
-  height: 80px;
+.weather-icon {
+  width: 88px;
+  height: 88px;
 }
