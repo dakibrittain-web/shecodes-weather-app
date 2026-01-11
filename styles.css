@@ -116,3 +116,43 @@ input[type="submit"]:hover {
   width: 88px;
   height: 88px;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.weather-forecast-day {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
+}
+
+.weather-forecast-date {
+  font-size: 14px;
+  color: rgb(46, 46, 108);
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.weather-forecast-temperatures {
+  font-size: 14px;
+}
+.weather-forecast-temperature-max {
+  color: rgb(46, 46, 108);
+  font-weight: bold;
+}
+
+.weather-forecast-temperature-min {
+  color: rgb(46, 46, 108);
+  opacity: 0.6;
+}
